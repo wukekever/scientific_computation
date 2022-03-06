@@ -63,7 +63,7 @@ def newton_interp(grids, x):
                 for k in range(i + 1):
                     if k != j:
                         dist = grid_x[j] - grid_x[k]
-                        if abs(dist) > 1.0e-16:
+                        if abs(dist) > 1.0e-8:
                             g *= dist
                         else: # can be optimized
                             print("[Error: The distance between x_{:d} and x_{:d} are too small !]".format(k, j))
@@ -107,7 +107,7 @@ def lagrange_interp(grids, x):
             for j in range(length):
                 if (i != j):
                     dist = x_i - grid_x[j] 
-                    if abs(dist) > 1.0e-16:
+                    if abs(dist) > 1.0e-8:
                         basis_func *= (x - grid_x[j]) / dist
                     else: # can be optimized
                         print("[Error: The distance between x_{:d} and x_{:d} are too small !]".format(i, j))
