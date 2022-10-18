@@ -1,10 +1,10 @@
 # Scientific Computation
 
 
-This repository contains the python code for the class of Scientific Computation.
+This repository contains the python code for scientific computation.
 
 
-## Homework
+## Projects
 
 problem 1: Interpolation
 
