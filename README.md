@@ -35,6 +35,6 @@ problem 7: Some numerical schemes for stochastic differential equations
   http://www.caam.rice.edu/~cox/stoch/dhigham.pdf
 
 Problem 8: Spectral method for solving Burgers equation with periodic condition
-$$u_t + \left ( \frac{1}{2} \right )_x = \gamma u_{xx}$$
+$$u_t + {\left ( \frac{1}{2} u^2 \right )}_x = \gamma u_{xx}$$
 
 Problem 9: Gaussian random field
