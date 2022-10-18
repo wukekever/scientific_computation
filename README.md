@@ -34,6 +34,7 @@ problem 7: Some numerical schemes for stochastic differential equations
   Higham "An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations", SIAM Review, Vol. 43, No. 3, 2001.
   http://www.caam.rice.edu/~cox/stoch/dhigham.pdf
 
-Problem 8: Spectral method for solving Burgers equation
+Problem 8: Spectral method for solving Burgers equation with periodic condition
+$$U_t + \left ( \frac{1}{2} \right )_x = \nu U_{xx}$$
 
 Problem 9: Gaussian random field
