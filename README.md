@@ -37,4 +37,4 @@ problem 7: Some numerical schemes for stochastic differential equations
 Problem 8: Spectral method for solving Burgers equation with periodic condition
 u_t + u u_x = nu u_xx
 
-Problem 9: Gaussian random field with kernel G(0, k(x, y))
+Problem 9: Gaussian random field with kernel k(x, y)
